@@ -1,0 +1,37 @@
+====================================================
+RELATORIO DE AUDITORIA - SERVIDOR HTTP
+====================================================
+
+RESULTADO PRINCIPAL
+  Requisicoes 200 (Sucesso).........: 25
+  Requisicoes 404 (Nao Encontrado)..: 10
+  Proporcao 200 para 404............: 2.50 para 1
+
+TODOS OS CODIGOS ENCONTRADOS
+  200:  25 requisicao(oes)   62.5%  ###############
+  301:   1 requisicao(oes)    2.5%  
+  302:   1 requisicao(oes)    2.5%  
+  403:   1 requisicao(oes)    2.5%  
+  404:  10 requisicao(oes)   25.0%  ######
+  500:   2 requisicao(oes)    5.0%  #
+
+PAGINAS MAIS ACESSADAS
+    7x  /extrato
+    6x  /produtos
+    4x  /sobre.html
+    4x  /wp-login.php
+    3x  /js/app.js
+
+IPS MAIS ATIVOS
+    8x  172.16.4.3
+    7x  189.45.112.6
+    7x  192.168.0.10
+    7x  192.168.0.25
+    6x  10.0.0.7
+
+CONFERENCIA DA LEITURA
+  Linhas lidas do arquivo...........: 43
+  Linhas validas processadas........: 40
+  Linhas ignoradas (fora do formato): 3
+  Soma das contagens por codigo.....: 40
+====================================================
